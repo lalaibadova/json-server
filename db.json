@@ -1,9 +1,84 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "countries": [
+    {
+      "id": "1",
+      "name": "Brazil",
+      "population": 215300000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+      "capital": "Brasília",
+      "description": "Brazil, officially the Federative Republic of Brazil, is the largest and easternmost country in South America and in Latin America. Brazil is the world's fifth-largest country by area and the seventh most populous. Its capital is Brasília, and its most populous city is São Paulo. "
+    },
+    {
+      "id": "2",
+      "name": "Italy",
+      "population": 58940000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png",
+      "capital": "Rome",
+      "description": "Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo's David and Brunelleschi's Duomo; Venice, the city of canals; and Milan, Italy's fashion capital."
+    },
+    {
+      "id": "3",
+      "name": "France",
+      "population": 67970000,
+      "flagImg": "https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
+      "capital": "Paris",
+      "description": "France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower. The country is also renowned for its wines and sophisticated cuisine. Lascaux's ancient cave drawings, Lyon's Roman theater and the vast Palace of Versailles attest to its rich history."
+    },
+    {
+      "id": "4",
+      "name": "Germany",
+      "population": 83800000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png",
+      "capital": "Berlin",
+      "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank."
+    },
+    {
+      "id": "5",
+      "name": "Germany delete edit",
+      "population": 83800000,
+      "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.svg.png",
+      "capital": "Berlin",
+      "description": "Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches. It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII. Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank."
+    },
+    {
+      "id": "0abb",
+      "name": "Azerbaijan",
+      "population": 10000000,
+      "description": "Baku, the capital and commercial hub of Azerbaijan, is a low-lying city with coastline along the Caspian Sea. It's famed for its medieval walled old city, which contains the Palace of the Shirvanshahs, a vast royal complex, and the iconic stone Maiden Tower. Contemporary landmarks include the Zaha Hadid–designed Heydar Aliyev Center, and the Flame Towers, 3 pointed skyscrapers covered with LED screens.",
+      "capital": "Baku",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/1200px-Flag_of_Azerbaijan.svg.png"
+    },
+    {
+      "id": "20b4",
+      "name": "Mexico",
+      "population": 127500000,
+      "description": "Mexico, officially the United Mexican States, is a country in the southern portion of North America. It covers 1,972,550 km², making it the world's 13th-largest country by area; with a population of almost 130 million, it is the 10th-most-populous country and the most populous Spanish-speaking country.",
+      "capital": "Mexico",
+      "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/1200px-Flag_of_Mexico.svg.png"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": "1",
+      "username": "elnurxo",
+      "email": "elnur@gmail.com",
+      "password": "Admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "nicat557",
+      "email": "nijat@gmail.com",
+      "password": "Nijat123",
+      "role": "client"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "messagge": [
+    {
+      "id": "1fc9",
+      "fullname": "lala ibadova",
+      "email": "lala@gmail.com",
+      "messagge": "salam"
+    }
+  ]
 }
